@@ -1,0 +1,529 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing:border-box;
+  }
+  body{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 1440px;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.container{
+    /*Общий контейнер*/
+    width: 1440px;
+    height: 2806px;
+.header{
+    /*Шапка*/
+    height: 41px;
+    background-color: #2A254B;
+    display: flex;
+    flex-direction: row;
+img:nth-of-type(1){
+    width: 16px;
+    height: 16px;
+    margin: 12.5px 0 0 510px;
+    }
+p:nth-of-type(1){
+    width: 383px;
+    font-family: 'Satoshi';
+    font-size: 14px;
+    color: white;
+    margin: 11px 0 0 8px;
+    }
+img:nth-of-type(2){
+    width: 24px;
+    height: 24px;
+    margin: 8px 0 0 477px;
+}
+}
+.header_menu{
+    /*Меню шапки*/
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+p:nth-of-type(1){
+    font-family: 'Clash Display';
+    font-size: 24px;
+    margin: 21px 0 0 28px;
+    color: #22202E;
+    }
+.header_text{
+    /*Контейнер меню без лого(для расстановки)*/
+    width: 215px;
+    height: 22px;
+    margin: 24px 0 0 904px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    color: #726E8D;
+p:nth-of-type(1){
+    font-family: 'Satoshi';
+    font-size: 16px;
+    margin: 0;
+    color: #726E8D;
+    }
+p:nth-of-type(2){
+    font-family: 'Satoshi';
+    }
+p:nth-of-type(3){
+    font-family: 'Satoshi';
+    }        
+}
+.header_icons{
+    /*Иконки меню*/
+    width: 80px;
+    height: 16px;
+    display: flex;
+    gap: 16px;
+    margin: 30px 0 0 79px;
+img{
+    width: 16px;
+    }   
+}
+}
+.header_slogan0{
+    /*Слоган контейнер*/
+    height: 64px;
+    padding: 20px 0 0 318px;
+.header_slogan{
+    /*слоган*/
+    width: 803px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    color: #726E8D;
+    gap: 44px;
+p{
+    font-family: 'Satoshi';
+
+    }
+}
+}
+.title{
+    /*Контейнер заголовка*/
+    height: 246px;
+    padding: 67px 0 0 367px;
+    color: #2A254B;
+p{
+    width: 704px;
+    height: 100px;
+    font-family: 'Clash Display';
+    font-size: 36px;
+    line-height: 50px;
+
+    }
+}
+.picture1{
+    /*Картинка*/
+    width: 1440px;
+    height: 603px;
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+.picture1_text{
+    /*Текст картинки*/
+    width: 536px;
+    height: 225px;
+    margin: 72px 0 0 84px;
+p:nth-of-type(1){
+    width: 514px;
+    height: 68px;
+    font-family: 'Clash Display';
+    font-size: 24px;
+    color: #2A254B;
+
+    }
+p:nth-of-type(2){
+    font-family: 'Satoshi';
+    line-height: 22px;
+    margin: 25px 0 0 0 ;
+    color: #505977;
+    }
+    .button{
+        /*Кнопка*/
+        width: 150px;
+        height: 56px;
+        background-color: #F9F9F9;
+        padding: 16px 0 0 32px;
+        margin: 196px 0 0 0;
+    p{
+        width: 86px;
+        height: 24px;
+        font-family: 'Satoshi';
+        font-size: 16px;
+        }
+    }
+}
+}
+.picture2{
+    /*Картинка*/
+    width: 1440px;
+    height: 603px;
+    display: flex;
+    flex-direction: row;
+.picture2_text{
+    /*Текст картинки*/
+    width: 536px;
+    height: 225px;
+    margin: 72px 0 0 84px;
+p:nth-of-type(1){
+    width: 514px;
+    height: 68px;
+    font-family: 'Clash Display';
+    font-size: 24px;
+    color: #2A254B;
+
+    }
+p:nth-of-type(2){
+    font-family: 'Satoshi';
+    line-height: 22px;
+    margin: 25px 0 0 0 ;
+    color: #505977;
+}
+    .button{
+        /*Кнопка*/
+        width: 150px;
+        height: 56px;
+        background-color: #F9F9F9;
+        padding: 16px 0 0 32px;
+        margin: 196px 0 0 0;
+    p{
+        width: 86px;
+        height: 24px;
+        font-family: 'Satoshi';
+        font-size: 16px;
+        }
+    }
+}
+img{
+    order: -1;
+}
+}
+.slogan{
+    /*Контейнер слоганов*/
+    height: 355px;
+    padding: 60px 0 0 0 ;
+p:nth-of-type(1){
+    width: 366px;
+    height: 34px;
+    font-family: 'Clash Display';
+    font-size: 24px;
+    margin: 0 0 0 529px;
+    }
+.slogans_many{
+    /*Слоганы*/
+    display: flex;
+    flex-direction: row;
+.slogan1{
+    /*1*/
+    width: 270px;
+    height: 124px;
+    margin: 51px 0 0 86px;
+    p:nth-of-type(1){
+        width: 199px;
+        height: 28px;
+        margin: 0;
+        font-family: 'Clash Display';
+        font-size: 20px;
+        margin: 16px 0 0 0;
+        }
+    p:nth-of-type(2){   
+        width: 270px;
+        height: 48px;
+        font-family: 'Satoshi';
+        line-height: 24px;
+        margin: 8px 0 0 0;
+        }
+}
+.slogan2{
+    /*2*/
+    width: 270px;
+    height: 124px;
+    margin: 51px 0 0 59px;
+    p:nth-of-type(1){
+        width: 205px;
+        height: 28px;
+        margin: 0;
+        font-family: 'Clash Display';
+        font-size: 20px;
+        margin: 16px 0 0 0;
+        }
+    p:nth-of-type(2){
+        width: 270px;
+        height: 48px;
+        font-family: 'Satoshi';
+        line-height: 24px;
+        margin: 8px 0 0 0;
+        }
+}
+.slogan3{
+    /*3*/
+    width: 270px;
+    height: 124px;
+    margin: 51px 0 0 58px;
+    p:nth-of-type(1){
+        width: 199px;
+        height: 28px;
+        margin: 0;
+        font-family: 'Clash Display';
+        font-size: 20px;
+        margin: 16px 0 0 0;
+        }
+    p:nth-of-type(2){
+        width: 270px;
+        height: 48px;
+        font-family: 'Satoshi';
+        line-height: 24px;
+        margin: 8px 0 0 0;
+        }
+}
+.slogan4{
+    /*4*/
+    width: 270px;
+    height: 124px;
+    margin: 51px 0 0 91px;
+    p:nth-of-type(1){
+        width: 199px;
+           height: 28px;
+        margin: 0;
+        font-family: 'Clash Display';
+        font-size: 20px;
+        margin: 16px 0 0 0;
+        }
+    p:nth-of-type(2){
+        width: 270px;
+        height: 48px;
+        font-family: 'Satoshi';
+        line-height: 24px;
+        margin: 8px 0 0 0;
+        }   
+    }
+}
+}
+.active{
+    /*Активность*/
+    position: relative;
+img{
+    width: 1440px;
+    vertical-align: bottom;
+}
+.active_text{
+    /*Текст активностей*/
+    width: 494px;
+    height: 165px;
+    position: absolute;
+    top: 0;
+    color: white;
+    margin: 97px 0 0 473px;
+p:nth-of-type(1){
+    font-family: 'Clash Display';
+    font-size: 32px;
+    }
+p:nth-of-type(2){
+    font-family: 'Satoshi';
+    font-size: 18px;
+    text-align: center;
+    margin: 12px 0 0 12px;
+    }
+.check_text{
+    /*Контейнер активности для расстановки*/
+    display: flex;
+    flex-direction: row;
+    width: 441px;
+    height: 24px;
+    margin: 30px 0 0 26px;
+img{
+    width: 16px;
+    height: 16px;
+}
+p:nth-of-type(1){
+    width: 107px;
+    font-family: 'Satoshi';
+    font-size: 16px;
+    margin: 0;
+    margin: 0 36px 0 8px;
+    }
+p:nth-of-type(2){
+    width: 80px;
+    font-family: 'Satoshi';
+    font-size: 16px;
+    margin: 0;
+    margin: 0 36px 0 8px;
+    }
+p:nth-of-type(3){
+    width: 111px;
+    font-family: 'Satoshi';
+    font-size: 16px;
+    margin: 0;
+    margin: 0 0 0 8px;
+    }
+}
+}
+.button{
+    /*Вводное поле*/
+    position: absolute;
+    top: 0;
+    margin: 302px 0 0 484px;
+    width: 472px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+input{
+    width: 354px;
+    height: 56px;
+    font-family: 'Satoshi';
+    color: #2A254B;
+    padding: 0 0 0 32px;
+    line-height: 22px;
+    font-size: 16px;
+}
+.purple_button{
+    /*Фиол. кнопка*/
+    width: 118px;
+    height: 56px;
+    font-family: 'Satoshi';
+    color: white;
+    background-color: #2A254B;
+    padding: 16px 0 0 32px;
+}
+}
+}
+.footer{
+    /*Подвал*/
+    height: 380px;
+    background-color: #2A254B;
+    color: white;
+.footer_Horizontal{
+    /*Горизонтальный текст*/
+    display: flex;
+    flex-direction: row;
+.left_text{
+    /*Левый*/
+    width: 108px;
+    height: 175px;
+    margin: 58px 0 0 82px;
+h1{
+    font-family: 'Clash Display'; 
+    font-size: 16px;
+    font-weight: 400;
+    }
+p{
+    font-family: 'Satoshi';
+    font-size: 14px;
+    line-height: 19px;
+    margin: 12px 0 0 0;
+    }
+}
+.center_text{
+    /*центральный*/
+    width: 108px;
+    height: 206px;
+    margin: 58px 0 0 109px;
+h1{
+    font-family: 'Clash Display'; 
+    font-size: 16px;
+    font-weight: 400;
+    }
+p{
+    font-family: 'Satoshi';
+    font-size: 14px;
+    line-height: 19px;
+    margin: 12px 0 0 0;
+    }
+}
+.right_text{
+    /*Правый*/
+    width: 108px;
+    height: 175px;
+    margin: 58px 0 0 133px;
+h1{
+    font-family: 'Clash Display'; 
+    font-size: 16px;
+    font-weight: 400;
+    }
+p{
+    font-family: 'Satoshi';
+    font-size: 14px;
+    line-height: 19px;
+    margin: 12px 0 0 0;
+    }
+}
+.button0{
+    /*Контейнер вводного поля*/
+    width: 627px;
+    height: 92px;
+    margin: 58px 0 0 109px;
+p:nth-of-type(1){
+    width: 142px;
+    height: 20px;
+    font-family: 'Clash Display';
+    }
+.button{
+    /*Вводное поле*/
+    width: 627px;
+    display: flex;
+    flex-direction: row;
+input{
+    width: 509px;
+    height: 56px;
+    background-color: #4a4666;
+    border: none;
+    padding: 0 0 0 32px;
+    margin: 16px 0 0 0 ;
+    }
+input::placeholder{
+    color: white;
+}
+.white_button{
+    /*Белая кнопка*/
+    width: 118px;
+    height: 56px;
+    background-color: white;
+    margin: 16px 0 0 366px;
+    color: #2A254B;
+    padding: 16px 0 0 32px;
+p:nth-of-type(1){
+    font-family: 'Satoshi';
+    }
+    }    
+}
+
+}
+}
+hr{
+    width: 1277px;
+    margin: 48px 0 0 80px;
+    border: 1px solid #4E4D93;
+    }
+.footer0{
+    /*Конечный блок в подвале*/
+    display: flex;
+    flex-direction: row;
+.footer_text{
+    /*Копирайт*/
+    p{
+        font-family: 'Satoshi';
+        font-size: 14px;
+        margin: 24px 0 0 80px;
+        }
+    }
+.footer_icons{
+    /*Иконки перенаправления*/
+    margin: 22px 0 0 849px;
+    display: flex;
+    gap: 24px;
+img{
+    width: 24px;
+    height: 24px;
+}
+}
+}
+
+}
+}
+

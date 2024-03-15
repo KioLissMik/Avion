@@ -1,0 +1,457 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing:border-box;
+    }
+.container{
+    /*Общий контейнер*/
+    width: 1440px;
+    height: 2340px;
+
+    .header{
+        /*Контейнер шапки*/
+        height: 139px;
+
+        .header__box{
+            /*Конетейнер заголовка*/
+            height: 70px;
+            display: flex;
+            font-display: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 26px 0 26px;
+
+            p{
+                font-family: 'Clash Display';
+                font-weight:  light;
+                width: 400;
+                font-size: 24px;
+                line-height: 29.52px;
+                }
+            }
+        .header__menu{
+            /*Контейнер текстового меню*/
+            height: 62px;
+            display: flex;
+            flex-direction: row;
+            padding: 20px 0 0 354px;
+            gap: 44px;
+
+            p{
+                font-family: 'Satoshi';
+                font-weight:  light;
+                width: 400;
+                font-size: 16px;
+                line-height: 21.6px;
+                color: #726E8D;
+                }
+            }
+        .header__image{
+            /*Фото в шапке*/
+            height: 209px;
+            background-image: url(../img/media/ProductListening/PageHeaders.jpg);
+            padding: 123px 0 0 80px;
+
+            p{
+                font-family: 'Clash Display';
+                font-weight: regular;
+                width: 400;
+                font-size: 36px;
+                line-height: 50.4px;
+                color: #fff;
+                }
+            }
+        }
+    section{
+        padding-top: 209px;
+        height: 1620px;
+        display: flex;
+        flex-direction: row;
+
+        .SideBar{
+            /*Левая колонка*/
+            padding: 48px 0 0 80px;
+            height: 1620px;
+            width: 385px;
+
+            .ProductType0{
+                /*Контейнер разделения заголовка*/
+                p{
+                    font-family: 'Clash Display';
+                    font-weight: regular;
+                    width: 400;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                    color: #2A254B;
+                    }
+                    
+                .ProductType{
+                    margin-top: 20px;
+
+                    p{
+                        font-family: 'Satoshi';
+                        font-weight: regular;
+                        width: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #2A254B;
+                        }
+                    div{
+                        display: flex;
+                        font-display: row;
+                        align-items: center;
+                        margin-right: 12px;
+
+                        div{
+                            width: 16px;
+                            height: 16px;
+                            border: 1px solid #DCDCDC;
+                            border-radius: 2px;
+                            }
+                        
+                        }
+                    div:nth-of-type(4){
+                        /*4 строка ProductType*/
+                        div{
+                            background-color: #4E4D93;
+
+                            img{
+                                width: 12px;
+                                height: 8.21px;
+                                }
+                            }
+                        }
+                    }
+                }
+            .Price0{
+                /*Контейнер разделения заголовка*/
+                margin-top: 48px;
+
+                p{
+                    font-family: 'Clash Display';
+                    font-weight: regular;
+                    width: 400;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                    color: #2A254B;
+                    }
+                .Price{
+                    margin-top: 20px;
+
+                    p{
+                        font-family: 'Satoshi';
+                        font-weight: regular;
+                        width: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #2A254B;
+                        }
+                    div{
+                        display: flex;
+                        font-display: row;
+                        align-items: center;
+                        margin-right: 12px;
+
+                        div{
+                            width: 16px;
+                            height: 16px;
+                            border: 1px solid #DCDCDC;
+                            border-radius: 2px;
+                            }
+                        }
+                    }
+                }
+            .Designer0{
+                /*Контейнер разделения заголовка*/
+                margin-top: 48px;
+
+                p{
+                    font-family: 'Clash Display';
+                    font-weight: regular;
+                    width: 400;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                    color: #2A254B;
+                    }
+                .designer{
+                    margin-top: 20px;
+
+                    p{
+                        font-family: 'Satoshi';
+                        font-weight: regular;
+                        width: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #2A254B;
+                        }
+                    div{
+                        display: flex;
+                        font-display: row;
+                        align-items: center;
+                        margin-right: 12px;
+
+                        div{
+                            width: 16px;
+                            height: 16px;
+                            border: 1px solid #DCDCDC;
+                            border-radius: 2px;
+                            }
+                        }
+                    }
+                }
+            }
+        
+        .Cards{
+            /*Котейнер карт*/
+            width: 1055px;
+            height: 1620px;
+            padding: 36px 0 0 20px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 36px;
+
+            p:nth-of-type(1){
+                font-family: 'Clash Display';
+                font-weight: regular;
+                width: 400;
+                font-size: 20px;
+                line-height: 28px;
+                color: #2A254B;
+                }
+            p:nth-of-type(2){
+                font-family: 'Satoshi';
+                font-weight: regular;
+                width: 400;
+                font-size: 18px;
+                line-height: 27px;
+                color: #2A254B;
+                }
+            .FirstRowCards{
+                /*Первая строка карт*/
+                display: flex;
+                flex-direction: row;
+                column-gap: 20px;
+
+                .Card1{
+                    /*Первая карта*/
+                    img{
+                        margin-bottom: 24px;
+                        }
+                    }
+                .Card2{
+                    /*Вторая карта*/
+                    img{
+                        margin-bottom: 24px;
+                        }
+                    }
+                .Card3{
+                    /*Третья карта*/
+                    img{
+                        margin-bottom: 24px;
+                        }
+                    }
+                }
+            .SecondRowCards{
+                /*Вторая строка карт*/
+                display: flex;
+                flex-direction: row;
+                column-gap: 20px;
+
+                .Card1{
+                    /*Первая карта*/
+                    img{
+                        margin-bottom: 24px;
+                        }
+                    }
+                .Card2{
+                    /*Вторая карта*/
+                    img{
+                        margin-bottom: 24px;
+                        }
+                    }
+                .Card3{
+                    /*Третья карта*/
+                    img{
+                        margin-bottom: 24px;
+                        }
+                    }
+                }
+            .ThirdRowCards{
+                /*Третья строка карт*/
+                display: flex;
+                flex-direction: row;
+                column-gap: 20px;
+
+                .Card1{
+                    /*Первая карта*/
+                    img{
+                        margin-bottom: 24px;
+                        }
+                    }
+                .Card2{
+                    /*Вторая карта*/
+                    img{
+                        margin-bottom: 24px;
+                        }
+                    }
+                .Card3{
+                    /*Третья карта*/
+                    img{
+                        margin-bottom: 24px;
+                        }
+                    }
+                }
+            button{
+                /*Кнопка*/
+                width: 140px;
+                height: 56px;
+                border: none;
+                margin-left: 408px;
+
+                p:nth-of-type(1){
+                    font-family: 'Satoshi';
+                    font-weight: regular;
+                    width: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #2A254B;
+                    }
+                }
+            }
+        }
+    .footer{
+        /*Котейнер подвала*/
+        margin-top: 211px;
+        height: 380px;
+        background-color: #2A254B;
+        color: white;
+
+        .footer_Horizontal{
+            /*Горизонтальный контейнер текста*/
+            display: flex;
+            flex-direction: row;
+            .left_text{
+                /*Левый текст*/
+                width: 108px;
+                height: 175px;
+                margin: 58px 0 0 82px;
+                h1{
+                    font-family: 'Clash Display'; 
+                    font-size: 16px;
+                    font-weight: 400;
+                    }
+                p{
+                    font-family: 'Satoshi';
+                    font-size: 14px;
+                    line-height: 19px;
+                    margin: 12px 0 0 0;
+                    }
+                }
+            .center_text{
+                /*Центральный текст*/
+                width: 108px;
+                height: 206px;
+                margin: 58px 0 0 109px;
+                h1{
+                    font-family: 'Clash Display'; 
+                    font-size: 16px;
+                    font-weight: 400;
+                    }
+                p{
+                    font-family: 'Satoshi';
+                    font-size: 14px;
+                    line-height: 19px;
+                    margin: 12px 0 0 0;
+                    }
+                }
+            .right_text{
+                /*Правый текст*/
+                width: 108px;
+                height: 175px;
+                margin: 58px 0 0 133px;
+                h1{
+                    font-family: 'Clash Display'; 
+                    font-size: 16px;
+                    font-weight: 400;
+                    }
+                p{
+                    font-family: 'Satoshi';
+                    font-size: 14px;
+                    line-height: 19px;
+                    margin: 12px 0 0 0;
+                    }
+                }
+            .button0{
+                /*Контейнер кнопки*/
+                width: 627px;
+                height: 92px;
+                margin: 58px 0 0 109px;
+                p:nth-of-type(1){
+                    width: 142px;
+                    height: 20px;
+                    font-family: 'Clash Display';
+                    }
+                .button{
+                    /*Вводное поле*/
+                    width: 627px;
+                    display: flex;
+                    flex-direction: row;
+                    input{
+                        width: 509px;
+                        height: 56px;
+                        background-color: #4a4666;
+                        border: none;
+                        padding: 0 0 0 32px;
+                        margin: 16px 0 0 0 ;
+                        }
+                    input::placeholder{
+                        color: white;
+                        }
+                    .white_button{
+                        /*Белая кнопка*/
+                        width: 118px;
+                        height: 56px;
+                        background-color: white;
+                        margin: 16px 0 0 366px;
+                        color: #2A254B;
+                        padding: 16px 0 0 32px;
+                        p:nth-of-type(1){
+                            font-family: 'Satoshi';
+                            }
+                        }    
+                    }
+                }
+            }
+        hr{
+            /*Линия*/
+            width: 1277px;
+            margin: 48px 0 0 80px;
+            border: 1px solid #4E4D93;
+            }
+        .footer0{
+            /*Последний контейнер подвала*/
+            display: flex;
+            flex-direction: row;
+            .footer_text{
+                /*Копирайт*/
+                p{
+                    font-family: 'Satoshi';
+                    font-size: 14px;
+                    margin: 24px 0 0 80px;
+                    }
+                }
+            .footer_icons{
+                /*Иконки*/
+                margin: 22px 0 0 849px;
+                display: flex;
+                gap: 24px;
+                img{
+                    width: 24px;
+                    height: 24px;
+                    }
+                }
+            }
+        }
+    }

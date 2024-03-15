@@ -1,0 +1,402 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing:border-box;
+  }
+  body{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 1440px;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.container{
+    /*Общий контейнер*/
+    height: 1261px;
+.header{
+    /*Шапка контейнер*/
+    height: 132px;
+    
+.header0{
+    /*Шапка объекты*/
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+img{
+    width: 16px;
+    height: 16px;
+    }
+img:nth-of-type(1){
+    margin: 26px 0 0 28px;
+    }
+p:nth-of-type(1){
+    font-family: 'Clash Display';
+    font-size: 24px;
+    margin: 20px 0 0 643px;
+    color: #22202E;
+}
+img:nth-of-type(2){
+    margin: 26px 0 0 612px;
+    }
+img:nth-of-type(3){
+    margin: 26px 0 0 16px;
+    }    
+}
+hr{
+    width: 1386px;
+    border: 1px solid #0000001A
+    }
+.header_text{
+    /*Шапка текст*/
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    color: #726E8D;
+    gap: 44px;
+    padding: 20px 0 0 354px;
+p{  
+    width: 70px;
+    height: 22px;
+    font-family: 'Satoshi';
+
+}
+}
+}
+.active{
+    /*Активности*/
+    height: 749px;
+    background-color: #F9F9F9;
+p:nth-of-type(1){
+    font-family: 'Clash Display';
+    font-size: 36px;
+    padding: 64px 0 0 188px;
+    }
+.active_list{
+    /*Лист активности*/
+    height: 392px;
+    margin: 48px 0 0 188px;
+.text{
+    display: flex;
+    flex-direction: row;
+    color: #2A254B;
+p:nth-of-type(1){
+    width: 55px;
+    height: 20px;
+    font-family: 'Clash Display';
+    font-size: 14px;
+    padding: 0;
+    }
+p:nth-of-type(2){
+    width: 57px;
+    height: 20px;
+    font-family: 'Clash Display';
+    font-size: 14px;
+    margin: 0 317px 0 595px;
+    }
+p:nth-of-type(3){
+    width: 34px;
+    height: 20px;
+    font-family: 'Clash Display';
+    font-size: 14px;
+    }
+}
+hr{
+    width: 1064px;
+    border: 1px solid #EBE8F4;
+}
+.image1{
+    /*Картинка*/
+    width: 1064px;
+    height: 134px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 0 0;
+.image_text1{
+    /*Текст картинки*/
+    width: 179px;
+    height: 110px;
+    margin: 12px 0 0 21px;
+p:nth-of-type(1){
+    width: 150px;
+    height: 28px;
+    padding: 0;
+    font-family: 'Clash Display';
+    font-size: 20px;
+    margin: 0;
+    }
+p:nth-of-type(2){
+    width: 179px;
+    height: 42px;
+    font-family: 'Satoshi';
+    font-size: 14px;
+    margin: 8px 0 0 0;
+    line-height: 21px;
+    }
+p:nth-of-type(3){
+    font-family: 'Satoshi';
+    margin: 8px 0 0 0;
+    }
+}
+p:nth-of-type(1){
+    padding: 0;
+    width: 122px;
+    height: 46px;
+    text-align: center;
+    font-family: 'Satoshi';
+    margin: 12px 0 0 341px;
+    font-size: 16px;
+    }
+p:nth-of-type(2){
+    width: 33px;
+    height: 27px;
+    font-family: 'Satoshi';
+    font-size: 18px;
+    margin: 11px 0 0 252px;
+}
+}
+.image2{
+    /*Картинка*/
+    width: 1064px;
+    height: 134px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 0 0;
+.image_text2{
+    /*Текст картинки*/
+    width: 179px;
+    height: 110px;
+    margin: 12px 0 0 21px;
+p:nth-of-type(1){
+    width: 155px;
+    height: 28px;
+    padding: 0;
+    font-family: 'Clash Display';
+    font-size: 20px;
+    margin: 0;
+    }
+p:nth-of-type(2){
+    width: 179px;
+    height: 42px;
+    font-family: 'Satoshi';
+    font-size: 14px;
+    margin: 8px 0 0 0;
+    line-height: 21px;
+    }
+p:nth-of-type(3){
+    font-family: 'Satoshi';
+    margin: 8px 0 0 0;
+    }
+}
+p:nth-of-type(1){
+    padding: 0;
+    width: 122px;
+    height: 46px;
+    text-align: center;
+    font-family: 'Satoshi';
+    margin: 12px 0 0 341px;
+    font-size: 16px;
+    }
+p:nth-of-type(2){
+    width: 33px;
+    height: 27px;
+    font-family: 'Satoshi';
+    font-size: 18px;
+    margin: 11px 0 0 252px;
+}
+}
+hr{
+    width: 1064px;
+    border: 1px solid #EBE8F4;
+    margin: 32px 0 0 0;
+}
+}
+.pending{
+    /*Конетейнер ценнника*/
+    width: 282px;
+    height: 67px;
+    margin: 28px 0 0 970px;
+p:nth-of-type(1){
+    font-family: 'Satoshi';
+    font-size: 14px;
+    line-height: 21px;
+    color: #4E4D93;
+    margin: 12px 0 0 0;
+    padding: 0;
+}
+.result{
+    /*Ценник*/
+    width: 150px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin: 0 0 0 132px;
+    p:nth-of-type(1){
+        font-family: 'Clash Display';
+        font-size: 20px;
+        line-height: 28px;
+        color: #4E4D93;
+        padding: 0;
+        }   
+    p:nth-of-type(2){
+        font-family: 'Clash Display';
+        font-size: 24px;
+        line-height: 34px;
+        color: #2A254B;
+        }
+    }
+}
+.button{
+    /*Кнопка*/
+    width: 172px;
+    height: 56px;
+    background-color: #2A254B;
+    padding: 16px 0 0 32px;
+    margin: 16px 0 0 1080px;
+p{
+    font-family: 'Satoshi';
+    font-size: 16px;
+    width: 108px;
+    height: 24px;
+    padding: 0;
+    color: white;
+}
+}
+}
+.footer{
+    /*Подвал*/
+    height: 380px;
+    background-color: #2A254B;
+    color: white;
+.footer_Horizontal{
+    /*Горизонтальная кнопка*/
+    display: flex;
+    flex-direction: row;
+.left_text{
+    /*Левая колонка*/
+    width: 108px;
+    height: 175px;
+    margin: 58px 0 0 82px;
+h1{
+    font-family: 'Clash Display'; 
+    font-size: 16px;
+    font-weight: 400;
+    }
+p{
+    font-family: 'Satoshi';
+    font-size: 14px;
+    line-height: 19px;
+    margin: 12px 0 0 0;
+    }
+}
+.center_text{
+    /*Центральная колонка*/
+    width: 108px;
+    height: 206px;
+    margin: 58px 0 0 109px;
+h1{
+    font-family: 'Clash Display'; 
+    font-size: 16px;
+    font-weight: 400;
+    }
+p{
+    font-family: 'Satoshi';
+    font-size: 14px;
+    line-height: 19px;
+    margin: 12px 0 0 0;
+    }
+}
+.right_text{
+    /*Правая колонка*/
+    width: 108px;
+    height: 175px;
+    margin: 58px 0 0 133px;
+h1{
+    font-family: 'Clash Display'; 
+    font-size: 16px;
+    font-weight: 400;
+    }
+p{
+    font-family: 'Satoshi';
+    font-size: 14px;
+    line-height: 19px;
+    margin: 12px 0 0 0;
+    }
+}
+.button0{
+    /*Контейнер вводного поля*/
+    width: 627px;
+    height: 92px;
+    margin: 58px 0 0 109px;
+p:nth-of-type(1){
+    width: 142px;
+    height: 20px;
+    font-family: 'Clash Display';
+    }
+.button{
+    /*Вводное поле*/
+    width: 627px;
+    display: flex;
+    flex-direction: row;
+input{
+    width: 509px;
+    height: 56px;
+    background-color: #4a4666;
+    border: none;
+    padding: 0 0 0 32px;
+    margin: 16px 0 0 0 ;
+    }
+input::placeholder{
+    color: white;
+}
+.white_button{
+    /*Белая кнопка*/
+    width: 118px;
+    height: 56px;
+    background-color: white;
+    margin: 16px 0 0 366px;
+    color: #2A254B;
+    padding: 16px 0 0 32px;
+p:nth-of-type(1){
+    font-family: 'Satoshi';
+    }
+    }    
+}
+
+}
+}
+hr{
+    width: 1277px;
+    margin: 48px 0 0 80px;
+    border: 1px solid #4E4D93;
+    }
+.footer0{
+    /*Конеч. контейнер подвала*/
+    display: flex;
+    flex-direction: row;
+.footer_text{
+    /*Копирайт*/
+    p{
+        font-family: 'Satoshi';
+        font-size: 14px;
+        margin: 24px 0 0 80px;
+        }
+    }
+.footer_icons{
+    /*Иконки перенаправления*/
+    margin: 22px 0 0 849px;
+    display: flex;
+    gap: 24px;
+img{
+    width: 24px;
+    height: 24px;
+}
+}
+}
+
+}
+}
